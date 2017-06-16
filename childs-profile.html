@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+        <title>{$page:title}</title>
+
+        <meta name="keywords" content="{$meta:keywords}">
+
+        <meta name="description" content="{$meta:description}">
+
+
+
+        <!-- Mobile Specific Metas -->
+
+        <meta name="HandheldFriendly" content="True">
+
+        <meta name="MobileOptimized" content="480">
+
+        <meta http-equiv="cleartype" content="on">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+
+        <!-- Add to homescreen for Chrome on Android -->
+
+        <meta name="mobile-web-app-capable" content="yes">
+
+
+
+        <!-- Add to homescreen for Safari on iOS -->
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <meta name="apple-mobile-web-app-title" content="{$page:title}">
+
+
+
+        <!-- Favicons -->
+
+        <link rel="apple-touch-icon" sizes="144x144" href="images/touch/144x144.png">
+
+        <link rel="apple-touch-icon" sizes="114x114" href="images/touch/114x114.png">
+
+        <link rel="apple-touch-icon" sizes="72x72" href="images/touch/72x72.png">
+
+        <link rel="apple-touch-icon" href="images/touch/57x57.png">
+
+
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+
+        <meta name="msapplication-TileImage" content="images/touch/144x144.png">
+
+        <meta name="msapplication-TileColor" content="#3372DF">
+
+
+
+        <!-- Generic Icon -->
+
+        <link rel="icon" href="images/favicon.ico">
+
+        <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
+
+        <link href='http://fonts.googleapis.com/css?family=Rozha+One|Gochi+Hand' rel='stylesheet' type='text/css'>
+
+        <!-- CSS -->
+
+        <link href="css/reset.css" rel="stylesheet" media="screen">
+
+        <link href="css/content.css" rel="stylesheet" media="screen">
+
+        <link href="css/nav.css" rel="stylesheet" media="screen">
+
+        <link href="css/style.css" rel="stylesheet" media="screen">
+
+        <link href="css/flipclock.css" rel="stylesheet" media="screen">
+
+
+
+        <!-- Additional css -->
+
+        <link href="css/animation.css" rel="stylesheet" media="screen">
+
+
+
+        <!-- HTML5shiv and selectivizr.js IE support of HTML5 elements and CSS3 pseudo-classes, attribute selectors -->
+
+        <!--[if lt IE 9]><script src="js/system/ie-pack.min.js"></script><![endif]-->
+
+
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+
+    </head>
+
+    <body>
+
+    <!-- Header -->
+
+
+    <!-- Center section -->
+    <section class="container white-color2">
+
+    <h1 class="logo">                 
+        <a href="/" title="Home">
+            <img src="images/logo.png" alt="DaycareBuds.com" width="290" height="80">
+        </a>
+    </h1>
+    <div class="sun">
+            <img src="images/sun.png" alt="sun" width="344" height="113">
+    </div>
+<nav id="main-menu" class="" role="navigation">   
+    <div class="menu grid_7">
+        <div class="prefix_2"></div> 
+        <!-- Main Menu -->
+            <ul class="main_menu">
+                <li class="classroom">
+                    <a class="classroom" title="Classroom" href="http://alexeypetrenko.com/classroom/classroom.html">Classroom</a>
+                </li>
+                <li class="mypage">
+                    <a title="My Page" class="mypage" href="#">My Page</a>
+                </li>
+                <li class="chprofile">
+                    <a title="Child's Profile" class="chprofile" href="http://alexeypetrenko.com/classroom/childs-profile.html">Child's Profile</a>
+                </li>
+                <li class="contactus">
+                    <a title="Contact Us" class="contactus" href="#">Contact Us</a>
+                </li>
+            </ul>
+    </div> 
+    <div class="menu2 grid_5">
+            <ul class="main_menu2">
+                <li class="">
+                    <a class="white" title="Registration" href="#">Download Forms</a>
+                </li>
+                <li class="">
+                    <a title="My Page" class="white" href="#">Events Calendar</a>
+                </li>
+                <li class="">
+                    <a title="Child's Profile" class="white" href="#">Logout</a>
+                </li>
+            </ul>
+    </div> 
+</nav>      
+    <!-- Header -->
+                <article class="container">
+                    <div style="text-align: center"><h2>Child's Profile</h2></div>
+
+                    <form id="contct-form" action="">
+                            <div class="grid_2">
+                                <div class="preview"></div>
+                                <div class="file-upload-wrapper">
+                                        <input type="file" name="file" class="field-file-upload-native white" accept="image/*" />
+                                        <button class="field-file-upload" type="text"> Upload Photo</button>
+                                </div>
+                            </div>
+                        <div class="parents grid_10">
+
+
+
+                            <div class="grid_6 alpha">
+
+                                <input class=violet type="text" name="supervisors-name" value="" placeholder="Child's First Name" required >
+
+                                <input class=orange type="text" name="reg-name" value="" placeholder="Child's Last Name" required >
+
+                                <input class=green type="text" name="re-password" value="" placeholder="Child's Nickname" required >
+
+                                                   
+
+                            <label class="grid_12 alpha violet-l"> Child's Date of Birth</label> 
+
+                            <div class="grid_4 alpha">
+
+                                <select class="blue" name="City" id="city" placeholder="Month" >
+
+                                    <option value="">Month</option>
+
+                                    <option value="">January</option>
+
+                                    <option value="">February</option>
+
+                                    <option value="">March</option>
+
+                                    <option value="">April</option>
+
+                                    <option value="">May</option>
+
+                                    <option value="">June</option>
+
+                                    <option value="">July</option>
+
+                                    <option value="">August</option>
+
+                                    <option value="">September</option>
+
+                                    <option value="">November</option>
+
+                                    <option value="">December</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="grid_4">
+
+                                <select class="blue" name="City" id="date" placeholder="city" >
+
+                                    <option value="">Day</option>
+
+                                    <option value="">1</option>
+
+                                    <option value="">2</option>
+
+                                    <option value="">3</option>
+
+                                    <option value="">4</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="grid_4 omega">
+
+                                <select class="blue" name="State" id="year" placeholder="Year" >
+
+                                    <option value="">Year</option>
+
+                                    <option value="">2014</option>
+
+                                    <option value="">2013</option>
+
+                                    <option value="">2012</option>
+
+                                    <option value="">2011</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="">
+
+                                <input class=violet type="text" name="reg-name" value="" placeholder="Mother/Guardian" required >
+
+                                <input class=red type="text" name="supervisors-name" value="" placeholder="Father/Guardian" required >
+
+                                <input class=orange type="text" name="re-password" value="" placeholder="Home Address" required >
+
+                            </div>
+                            <div class="grid_4 alpha">
+
+                                <select name="City" id="city" placeholder="City" >
+
+                                    <option value="">City</option>
+
+                                    <option value="">New York</option>
+
+                                    <option value="">Los Angeles</option>
+
+                                    <option value="">Chicago</option>
+
+                                    <option value="">Houston</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="grid_4">
+
+                                <select name="State" id="state" placeholder="State" >
+
+                                    <option value="">State</option>
+
+                                    <option value="">AK</option>
+
+                                    <option value="">AZ</option>
+
+                                    <option value="">AR</option>
+
+                                    <option value="">CA</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="grid_4 omega">
+
+                                <input class=zip type="text" name="zip" value="" placeholder="Zip" required >
+                            </div>
+                            <input class=green type="text" name="reg-name" value="" placeholder="Email" required >
+                            <div class="grid_12 omega">
+
+                                    <label class="grid_6 blue-l"> Allergies</label> 
+
+                                    <select class="grid_6 omega" name="City" id="city" placeholder="City" >
+
+                                        <option value="">Yes</option>
+
+                                        <option value="">No</option>
+
+                                    </select>
+                                    <textarea class="scrollbar scroll" name="message" placeholder="If Yes, Please Give Details"></textarea>
+                            </div>
+                        </div>
+
+                            <div class="grid_6 omega">
+                                <textarea class="scrollbar scroll violet" name="message" placeholder="Helpful notes about your child "></textarea>
+                                    <div class="emergency">
+                                        <input class=red type="text" name="state-license" value="" placeholder="Emergency Contact 1" required >
+                                        <input class=orange type="text" name="teach-name" value="" placeholder="Relationship" required >
+                                        <input class=blue type="text" name="teach-name" value="" placeholder="Phone Number" required >
+                                    </div>
+                                    <div class="emergency-orange">
+                                        <input class=red type="text" name="state-license" value="" placeholder="Emergency Contact 2" required >
+                                        <input class=orange type="text" name="teach-name" value="" placeholder="Relationship" required >
+                                        <input class=blue type="text" name="teach-name" value="" placeholder="Phone Number" required >
+                                    </div>
+                                    <div class="emergency-blue">
+                                        <input class=red type="text" name="state-license" value="" placeholder="Emergency Contact 3" required >
+                                        <input class=orange type="text" name="teach-name" value="" placeholder="Relationship" required >
+                                        <input class=blue type="text" name="teach-name" value="" placeholder="Phone Number" required >
+                                    </div>
+                                    <div class="grid_12 mt20px">
+
+                                        <button class="btn-red-v prefix_8">UPDATE</button>                      
+
+                                    </div>
+
+                                    
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </form>
+
+
+
+                </article>
+
+            </section>
+
+    <!-- Footer -->
+        <footer class="providerf" role="contentinfo">
+            <!-- Footer info -->
+            <div class="under-footer">
+                &copy; 2015 Daycare Buds. All Rights Reserved
+            </div>
+
+
+        </footer>
+
+        <!-- SCRIPTS ZONE -->
+
+        <script>
+
+
+        $(function() {
+                var preview = {
+                        init: function() {
+                                preview.setPreviewImg();
+                                preview.listenInput();
+                        },
+                        setPreviewImg: function(fieldImg) {
+                                var path = $(fieldImg).val();
+                                var fieldUpload = $(fieldImg).siblings('.field-file-upload');
+
+                                if (!path) {
+                                        $(fieldUpload).val('upload photo');
+                                } else {
+                                        path = path.replace(/^C:\\fakepath\\/, "");
+                                        $(fieldUpload).val(path);
+
+                                        preview.showPreview(fieldImg, path);
+                                }
+                        },
+                        showPreview: function(fieldImg, path) {
+                                var file = $(fieldImg)[0].files;
+
+                                if (file && file[0]) {
+                                        var reader = new FileReader();
+                                        var fieldUpload = $(fieldImg).siblings('.field-file-upload');
+
+                                        reader.onload = function(e) {
+                                                var previewImg = $(fieldImg).parent().siblings('.preview');
+                                                var img = $(previewImg).find('img');
+
+                                                if (img.length == 0) {
+                                                        $(previewImg).html('<img src="' + e.target.result + '" alt=""/>');
+                                                } else {
+                                                        img.attr('src', e.target.result);
+                                                }
+
+                                                fieldUpload.val(path);
+                                        }
+
+                                        reader.onloadstart = function() {
+                                                $(fieldUpload).val('uploading..');
+                                        }
+
+                                        reader.readAsDataURL(file[0]);
+                                }
+                        },
+                        listenInput: function() {
+                                $('.field-file-upload-native').on('change', function() {
+                                        preview.setPreviewImg(this);
+                                });
+                        }
+                }
+                
+                preview.init();
+        });
+
+
+        </script>
+
+
+
+        <script src="js/scripts.min.js"></script>
+
+        <script src="js/plugin/flipclock.min.js"></script>
+
+        <script src="js/system/forcekit.min.js"></script>
+
+    </body>
+
+</html>
