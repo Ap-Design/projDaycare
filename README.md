@@ -1,3 +1,3 @@
 # projDaycare
 This admin panel for daycarebuds school
-Go to for demo http://alexeypetrenko.com/adminpanel/index.html
+<p>Go to for <a href="http://alexeypetrenko.com/adminpanel/index.html" target="_blank">Demo</a></p>
